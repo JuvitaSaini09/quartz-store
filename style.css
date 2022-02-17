@@ -30,6 +30,7 @@ ul {
 
 header {
 background-color: var(--pink-light2);
+
 }
 
 .navbar {
@@ -55,8 +56,57 @@ background-color: var(--pink-light2);
    background-color: var(--pink-light1);
 }
 
-@media only screen and (max-width:700px) {
 
+.img-landing-page img{
+    height:30rem;
+    width:100%;
+}
+
+.landing-text{
+    z-index:2;
+    position:absolute;
+    top:12rem;
+    left:15%;
+    font-size:1.5rem;
+}
+
+.landing-text h2{
+  color:var(--pink-primary2)
+}
+
+.landing-text p{
+    margin-bottom:1rem;
+    color:var(--black-light);
+}
+
+.btn-explore{
+    border:1px solid var(--pink-dark);
+    border-radius: 5px;
+    font-size:1rem;
+  color:white;
+  padding:10px;
+  background-color: var(--pink-primary1);
+}
+.btn-explore:hover{
+    background-color: var(--pink-dark);
+}
+.text-landing-page >*{
+    margin:1rem;
+}
+@media only screen and (max-width:900px) {
+
+ .landing-text{
+    top:15rem;
+    font-size:1.3rem;
+ }
+ .img-landing-page img{
+    height:30rem;
+    width:100%;
+}
+}
+
+@media only screen and (max-width:700px) {
+     
 
     .logo{
         font-size: 1.3rem;
