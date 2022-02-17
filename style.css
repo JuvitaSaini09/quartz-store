@@ -1,0 +1,87 @@
+@import url(/components/color.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo{
+    cursor: pointer;
+    color:var(--pink-primary1);
+    font-size: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.logo h1 i{
+    padding-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+background-color: var(--pink-light2);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.nav li a{
+    color:var(--pink-primary2);
+    padding:5px;
+    letter-spacing:1px;
+    border-radius: 5px;
+}
+
+.nav li a:hover{
+   background-color: var(--pink-light1);
+}
+
+@media only screen and (max-width:700px) {
+
+
+    .logo{
+        font-size: 1.3rem;
+        padding-left: 0;
+    }
+
+    .nav li {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .nav ul{
+        position: absolute;
+        top: 3rem;
+        left:0;
+        right:0;
+        background-color: var(--pink-primary1);
+    }
+    .nav li a{
+        color:var(--white);
+        padding:5px;
+        width:100%;
+    }
+    .nav li a:hover{
+   background-color: var(--pink-primary3);
+    }
+
+}
