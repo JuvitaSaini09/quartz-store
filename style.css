@@ -1,6 +1,6 @@
 @import url(/components/color.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-@import url(https://build-ui-component-library.netlify.app/components/card/card.css);
+@import url(https://build-ui-component-library.netlify.app/components/components.css);
 * {
     margin: 0;
     padding: 0;
