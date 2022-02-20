@@ -7,7 +7,7 @@
 .login-page-container{
     width:40rem;
     padding:8px;
-   margin:4rem 25% 4rem 25%;
+   margin:10rem 25% 4rem 25%;
     border:2px solid var(--grey-light);
     background-color: rgb(248, 245, 245);
 }
