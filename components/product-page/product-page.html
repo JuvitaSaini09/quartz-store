@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product-page.css">
+    <script src="https://kit.fontawesome.com/9c98d67da5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9c98d67da5.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header-nav">
+        <div class="navbar">
+
+            <div class="logo">
+                <h1><i class="fab fa-artstation"></i>Quartz</h1>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">PRODUCTS</a></li>
+                    <li><a href="/">ACCOUNT</a></li>
+                    <li><a href="/"> <i class="fas fa-heart"></i></a></li>
+                    <li><a href="/"><i class="fas fa-shopping-bag"></i></a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+  
+    
+    <button class="btn-sidebar"><i class="fas fa-bars fa-2x" id="btn"></i><span class="filter">Filter</span></button>
+    
+
+    <main class="main-body">
+
+        <section class="side-drawer">
+            <div class="side-drawer-container">
+                <div class="heading-side-drawer">
+                    <h1>Filters</h1>
+                    <button class="btn-clear">clear</button>
+                </div>
+
+                <div class="slider-container">
+                    <h2>Rating</h2>
+                    <p class="rating-value">5 &#x2605</p>
+                    <span>1</span> <input type="range" class="slider" id="slider-rating" min="1" max="5"><span>5</span>
+
+                </div>
+
+                <div class="category-container">
+                    <h2>Genre</h2>
+                    <div>
+                        <label for="all-book">All</label>
+                        <input type="checkbox" class="category" id="all-book" name="all" checked>
+                    </div>
+                    <div>
+                        <label for="cook-book">Cooking</label>
+                        <input type="checkbox" class="category" id="cook-book" name="cook book">
+                    </div>
+                    <div>
+                        <label for="drama">Drama</label>
+                        <input type="checkbox" class="category" id="drama" name="drama">
+                    </div>
+                    <div>
+                        <label for="health">Health/Fitness</label>
+                        <input type="checkbox" class="category" id="health" name="health">
+                    </div>
+                    <div>
+                        <label for="non-fiction">Non-fiction</label>
+                        <input type="checkbox" class="category" id="non-fiction" name="non-fiction">
+                    </div>
+                    <div>
+                        <label for="biography">Biography</label>
+                        <input type="checkbox" class="category" id="biography" name="biogaphy">
+                    </div>
+                    <div>
+                        <label for="sci-fiction">Science Fiction</label>
+                        <input type="checkbox" class="category" id="sci-fiction" name="sci-fiction">
+                    </div>
+                </div>
+
+
+                <div class="Price-range-container">
+                    <h2>Sort by</h2>
+                    <div>
+                        <label for="low-to-high">Low to high</label>
+                        <input type="radio" class="price-range" id="low-to-high" name="price-radio-button"><br>
+                        <label for="high-to-low">High to low</label>
+                        <input type="radio" class="price-range" id="high-to-low" name="price-radio-button">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-page">
+
+
+            <div class="card-featured">
+                <div class="card6 card">
+                    <div class="card-badge">
+                        <button class="heart-badge "><span class="heart">&#9825;</span></button>
+                        <a href="#">
+                            <img class="card-image" alt="card-image" src="/assets/atomic-habits.jpg">
+                            <div class="card-text card6-text">
+                                <header>
+                                    <h3>Atomic Habits</h3><button class="rate-btn"><span>&#9733</span>4.5</button>
+                                </header>
+                                <div class="card-info">
+                                    <p>Juvita kon</p>
+                                    <div class="price">&#8377. 300
+                                        <span class="price-old">&#8377 600</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <footer>
+                            <button class="btn-cart">Add to cart</button>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-featured">
+                <div class="card6 card">
+                    <div class="card-badge">
+                        <button class="heart-badge "><span class="heart">&#9825;</span></button>
+                        <a href="#">
+                            <img class="card-image" alt="card-image" src="/assets/think-and-grow-rich.png">
+                            <div class="card-text card6-text">
+                                <header>
+                                    <h3>Atomic Habits</h3><button class="rate-btn"><span>&#9733</span>4.5</button>
+                                </header>
+                                <div class="card-info">
+                                    <p>Juvita kon</p>
+                                    <div class="price">&#8377. 300
+                                        <span class="price-old">&#8377 600</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <footer>
+                            <button class="btn-cart">Add to cart</button>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-featured">
+                <div class="card6 card">
+                    <div class="card-badge">
+                        <button class="heart-badge "><span class="heart">&#9825;</span></button>
+                        <a href="#">
+                            <img class="card-image" alt="card-image" src="/assets/ikigai.jpg">
+                            <div class="card-text card6-text">
+                                <header>
+                                    <h3>Atomic Habits</h3><button class="rate-btn"><span>&#9733</span>4.5</button>
+                                </header>
+                                <div class="card-info">
+                                    <p>Juvita kon</p>
+                                    <div class="price">&#8377. 300
+                                        <span class="price-old">&#8377 600</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <footer>
+                            <button class="btn-cart">Add to cart</button>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-featured">
+                <div class="card6 card">
+                    <div class="card-badge">
+                        <button class="heart-badge "><span class="heart">&#9825;</span></button>
+                        <a href="#">
+                            <img class="card-image" alt="card-image" src="/assets/5am-club.jpg">
+                            <div class="card-text card6-text">
+                                <header>
+                                    <h3>Atomic Habits</h3><button class="rate-btn"><span>&#9733</span>4.5</button>
+                                </header>
+                                <div class="card-info">
+                                    <p>Juvita kon</p>
+                                    <div class="price">&#8377. 300
+                                        <span class="price-old">&#8377 600</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <footer>
+                            <button class="btn-cart">Add to cart</button>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-featured">
+                <div class="card6 card">
+                    <div class="card-badge">
+                        <button class="heart-badge "><span class="heart">&#9825;</span></button>
+                        <a href="#">
+                            <img class="card-image" alt="card-image" src="/assets/do-the-epic-shit.jpg">
+                            <div class="card-text card6-text">
+                                <header>
+                                    <h3>Atomic Habits</h3><button class="rate-btn"><span>&#9733</span>4.5</button>
+                                </header>
+                                <div class="card-info">
+                                    <p>Juvita kon</p>
+                                    <div class="price">&#8377. 300
+                                        <span class="price-old">&#8377 600</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <footer>
+                            <button class="btn-cart">Add to cart</button>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-featured">
+                <div class="card6 card">
+                    <div class="card-badge">
+                        <button class="heart-badge "><span class="heart">&#9825;</span></button>
+                        <a href="#">
+                            <img class="card-image" alt="card-image" src="/assets/alchemist.jpg">
+                            <div class="card-text card6-text">
+                                <header>
+                                    <h3>Atomic Habits</h3><button class="rate-btn"><span>&#9733</span>4.5</button>
+                                </header>
+                                <div class="card-info">
+                                    <p>Juvita kon</p>
+                                    <div class="price">&#8377. 300
+                                        <span class="price-old">&#8377 600</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <footer>
+                            <button class="btn-cart">Add to cart</button>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-featured">
+                <div class="card6 card">
+                    <div class="card-badge">
+                        <button class="heart-badge "><span class="heart">&#9825;</span></button>
+                        <a href="#">
+                            <img class="card-image" alt="card-image" src="/assets/think-and-grow-rich.png">
+                            <div class="card-text card6-text">
+                                <header>
+                                    <h3>Atomic Habits</h3><button class="rate-btn"><span>&#9733</span>4.5</button>
+                                </header>
+                                <div class="card-info">
+                                    <p>Juvita kon</p>
+                                    <div class="price">&#8377. 300
+                                        <span class="price-old">&#8377 600</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <footer>
+                            <button class="btn-cart">Add to cart</button>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-featured">
+                <div class="card6 card">
+                    <div class="card-badge">
+                        <button class="heart-badge "><span class="heart">&#9825;</span></button>
+                        <a href="#">
+                            <img class="card-image" alt="card-image" src="/assets/alchemist.jpg">
+                            <div class="card-text card6-text">
+                                <header>
+                                    <h3>Atomic Habits</h3><button class="rate-btn"><span>&#9733</span>4.5</button>
+                                </header>
+                                <div class="card-info">
+                                    <p>Juvita kon</p>
+                                    <div class="price">&#8377. 300
+                                        <span class="price-old">&#8377 600</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <footer>
+                            <button class="btn-cart">Add to cart</button>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-featured">
+                <div class="card6 card">
+                    <div class="card-badge">
+                        <button class="heart-badge "><span class="heart">&#9825;</span></button>
+                        <a href="#">
+                            <img class="card-image" alt="card-image" src="/assets/think-and-grow-rich.png">
+                            <div class="card-text card6-text">
+                                <header>
+                                    <h3>Atomic Habits</h3><button class="rate-btn"><span>&#9733</span>4.5</button>
+                                </header>
+                                <div class="card-info">
+                                    <p>Juvita kon</p>
+                                    <div class="price">&#8377. 300
+                                        <span class="price-old">&#8377 600</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <footer>
+                            <button class="btn-cart">Add to cart</button>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-featured">
+                <div class="card6 card">
+                    <div class="card-badge">
+                        <button class="heart-badge "><span class="heart">&#9825;</span></button>
+                        <a href="#">
+                            <img class="card-image" alt="card-image" src="/assets/ikigai.jpg">
+                            <div class="card-text card6-text">
+                                <header>
+                                    <h3>Atomic Habits</h3><button class="rate-btn"><span>&#9733</span>4.5</button>
+                                </header>
+                                <div class="card-info">
+                                    <p>Juvita kon</p>
+                                    <div class="price">&#8377. 300
+                                        <span class="price-old">&#8377 600</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <footer>
+                            <button class="btn-cart">Add to cart</button>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-featured">
+                <div class="card6 card">
+                    <div class="card-badge">
+                        <button class="heart-badge "><span class="heart">&#9825;</span></button>
+                        <a href="#">
+                            <img class="card-image" alt="card-image" src="/assets/think-and-grow-rich.png">
+                            <div class="card-text card6-text">
+                                <header>
+                                    <h3>Atomic Habits</h3><button class="rate-btn"><span>&#9733</span>4.5</button>
+                                </header>
+                                <div class="card-info">
+                                    <p>Juvita kon</p>
+                                    <div class="price">&#8377. 300
+                                        <span class="price-old">&#8377 600</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <footer>
+                            <button class="btn-cart">Add to cart</button>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer-home">
+
+        <h2>Made by Juvita Saini with &#x2764;</h2>
+
+    </footer>
+
+    <script>
+       const btn=document.querySelector(".btn-sidebar")
+       const sidebar=document.querySelector(".side-drawer")
+
+
+
+       btn.addEventListener('click',()=>{
+
+           if(sidebar.style.display=="none")
+           sidebar.style.display="block";
+           else
+            sidebar.style.display="none"
+       })
+       
+    </script>
+
+</body>
+
+</html>
