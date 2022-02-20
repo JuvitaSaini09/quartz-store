@@ -1,6 +1,10 @@
 @import url(/style.css);
 @import url(/components/color.css);
 
+:root{
+  --white-lightest:rgb(202, 197, 197);
+}
+
 .cart-page {
   display: flex;
   flex-wrap: wrap;
@@ -46,11 +50,11 @@ tr {
 
 .price-table-h *,
 .price-table-h {
-  border-bottom: 1px solid rgb(202, 197, 197);
+  border-bottom: 1px solid var(--white-lightest);
 }
 
 .price-table-foot * {
-  border-top: 2px solid rgb(202, 197, 197);
+  border-top: 2px solid var(--white-lightest);
 }
 
 table {
@@ -60,7 +64,7 @@ table {
 .btn-place-order {
   height: 2rem;
   width: 16rem;
-  color: white;
+  color: var(--white);
   background-color: var(--black);
   border: none;
   border-radius: 5px;
