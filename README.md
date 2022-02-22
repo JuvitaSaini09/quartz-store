@@ -1,6 +1,6 @@
 # quartz-store
 
-Quartz Book Store is a E-commerce website .It is made with Html and CSS.
+Quartz Book Store is a E-commerce website.It is made with Html and CSS.
 
 ## Pages ##
 
